@@ -1,26 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package packagerversion="1.4.9" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0
-http://pear.php.net/dtd/tasks-1.0.xsd
-http://pear.php.net/dtd/package-2.0
-http://pear.php.net/dtd/package-2.0.xsd">
+<package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
  <name>Structures_DataGrid_DataSource_Excel</name>
  <channel>pear.php.net</channel>
  <summary>DataSource driver using Excel spreadsheets</summary>
- <description>
-This is a DataSource driver for Structures_DataGrid using Excel spreadsheets. It
+ <description>This is a DataSource driver for Structures_DataGrid using Excel spreadsheets. It
 requires that the package Spreadsheet_Excel_Reader is installed (not available
-as a PEAR package, but via Sourceforge: http://sourceforge.net/projects/phpexcelreader).
- </description>
+as a PEAR package, but via Sourceforge: http://sourceforge.net/projects/phpexcelreader).</description>
  <lead>
   <name>Mark Wiesemann</name>
   <user>wiesemann</user>
   <email>wiesemann@php.net</email>
   <active>yes</active>
  </lead>
- <date>2006-12-16</date>
- <time>17:00:00</time>
+ <date>2012-04-13</date>
+ <time>13:22:27</time>
  <version>
-  <release>0.1.1</release>
+  <release>0.1.2</release>
   <api>0.1.0</api>
  </version>
  <stability>
@@ -29,17 +24,14 @@ as a PEAR package, but via Sourceforge: http://sourceforge.net/projects/phpexcel
  </stability>
  <license uri="http://opensource.org/licenses/bsd-license.php">New BSD</license>
  <notes>
-- this package is now licensed under the New BSD license
+QA release
+
+Bug #17737	Rows with empty values skiped
  </notes>
  <contents>
-    <dir baseinstalldir="/" name="/">
-   <dir name="Structures">
-   <dir name="DataGrid">
-    <dir name="DataSource">
-     <file  name="Excel.php" role="php" />
-    </dir> <!-- //DataGrid/DataSource -->
-   </dir> <!-- //DataGrid -->
-  </dir></dir> <!-- / -->
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="0e39caa068aed187c180d71406511ef4" name="Structures/DataGrid/DataSource/Excel.php" role="php" />
+  </dir>
  </contents>
  <dependencies>
   <required>
@@ -62,4 +54,23 @@ as a PEAR package, but via Sourceforge: http://sourceforge.net/projects/phpexcel
   </required>
  </dependencies>
  <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.1.2</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2012-04-13</date>
+   <license uri="http://opensource.org/licenses/bsd-license.php">New BSD</license>
+   <notes>
+QA release
+
+Bug #17737	Rows with empty values skiped
+   </notes>
+  </release>
+ </changelog>
 </package>
