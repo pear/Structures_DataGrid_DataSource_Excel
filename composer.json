@@ -8,7 +8,7 @@
     ],
     "autoload": {
         "psr-0": {
-            "Structures_DataGrid_DataSource_Excel": "./"
+            "Structures": "./"
         }
     },
     "description": "More info available on: http://pear.php.net/package/Structures_DataGrid_DataSource_Excel",
@@ -23,7 +23,8 @@
     },
     "type": "library",
     "require": {
-        "pear/pear_exception": "*"
+        "pear/pear_exception": "*",
+        "pear/structures_datagrid": "*"
     },
     "require-dev": {
         "phpunit/phpunit": "*"
