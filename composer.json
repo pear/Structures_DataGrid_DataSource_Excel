@@ -1,0 +1,32 @@
+{
+    "authors": [
+        {
+            "email": "wiesemann@php.net",
+            "name": "Mark Wiesemann",
+            "role": "Lead"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Structures": "./"
+        }
+    },
+    "description": "More info available on: http://pear.php.net/package/Structures_DataGrid_DataSource_Excel",
+    "include-path": [
+        "./"
+    ],
+    "license": "New BSD",
+    "name": "pear/structures_datagrid_datasource_excel",
+    "support": {
+        "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=Structures_DataGrid_DataSource_Excel",
+        "source": "https://github.com/pear/Structures_DataGrid_DataSource_Excel"
+    },
+    "type": "library",
+    "require": {
+        "pear/pear_exception": "*",
+        "pear/structures_datagrid": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    }
+}
